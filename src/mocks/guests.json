@@ -1,0 +1,200 @@
+{
+  "Families": [
+    {
+      "Id": 1,
+      "Family": "Agreda Herrera",
+      "Confirmed": false,
+      "Members": [
+        {
+          "Name": "Reina Valenzuela",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Yohemir Agreda",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Sonia Valenzuela",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Mario Martínez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Sandra Herrera",
+          "IsConfirmed": false
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Family": "Agreda Lucha",
+      "Confirmed": false,
+      "Members": [
+        {
+          "Name": "Beatriz Agreda",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Michelle Agreda",
+          "IsConfirmed": false
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Family": "Figueroa Valenzuela",
+      "Confirmed": false,
+      "Members": [
+        {
+          "Name": "Oscar Figueroa",
+          "IsConfirmed": true
+        },
+        {
+          "Name": "Adela Valenzuela",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Paola Valenzuela",
+          "IsConfirmed": false
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Family": "Rodríguez Valenzuela",
+      "Confirmed": false,
+      "Members": [
+        {
+          "Name": "Nelson Rodríguez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Daisy Valenzuela",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Nelson Rodríguez Jr.",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Kevin Rodríguez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Idalia de Rodríguez",
+          "IsConfirmed": false
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Family": "Contreras Cabezas",
+      "Confirmed": false,
+      "Members": [
+        {
+          "Name": "Pedro Valenzuela",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Delmi Contreras",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Jennyfer Contreras",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Danilo Contreras",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Alisson Contreras",
+          "IsConfirmed": false
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Family": "",
+      "Confirmed": false,
+      "Members": [
+        {
+          "Name": "Nelson ",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "",
+          "IsConfirmed": false
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Family": "Martínez Herrera",
+      "Confirmed": false,
+      "Members": [
+        {
+          "Name": "Doris Martínez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Gloria Martínez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Yanira Martínez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Pamela Martínez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Rosa Martínez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Ana Martínez",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Rosa Martínez (Madrina)",
+          "IsConfirmed": false
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Family": "Valenzuela Herrera",
+      "Confirmed": false,
+      "Members": [
+        {
+          "Name": "Rocio Valenzuela",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Sofía Valenzuela",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Kevin",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Daniela Valenzuela",
+          "IsConfirmed": false
+        },
+        {
+          "Name": "Carlos",
+          "IsConfirmed": false
+        }
+      ]
+    }
+  ]
+}
