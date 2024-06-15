@@ -11,7 +11,7 @@ export const Bento = ({ id, className, FamilyInput }) => {
       if (!FamilyInput) return;
       try {
         const response = await fetch(
-          `https://graduation-invitation-mario.vercel.app//families/${FamilyInput}`
+          `https://graduation-invitation-mario.vercel.app/families/${FamilyInput}`
         );
 
         if (!response.ok) {
@@ -65,7 +65,7 @@ export const Bento = ({ id, className, FamilyInput }) => {
 
     try {
       const response = await fetch(
-        `https://graduation-invitation-mario.vercel.app//families/updatedMembers`,
+        `https://graduation-invitation-mario.vercel.app/families/updatedMembers`,
         {
           method: "PUT",
           headers: {
