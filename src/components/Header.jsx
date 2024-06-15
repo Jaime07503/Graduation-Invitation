@@ -24,7 +24,7 @@ export const Header = () => {
         className="
                     size-16
                 "
-        src="./public/graduation_cap.svg"
+        src="/graduation_cap.svg"
         alt="Icono de Birrete de Graduación"
       />
     </header>
