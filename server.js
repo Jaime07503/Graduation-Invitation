@@ -18,24 +18,6 @@ export const client = createClient({
     "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MTgzMjcwNDgsImlkIjoiZDY1MTM0NmItY2Q3OC00OTBhLWIxZWQtYTg4MDQ1NWEyN2E3In0.ZZ6-sjYYB5Hv1s-bYst22e2LvaOpz0RerMOidYhdlI3_twlnqTJA1jCjqQ-8ON3gnr9ao5JFaAKIEqeMzBNODA",
 });
 
-// app.get("/families", async (res) => {
-//   const query = `
-//         SELECT Family.family_name
-//         FROM Family
-//     `;
-
-//   try {
-//     const result = await client.execute({
-//       sql: query,
-//     });
-//     res.json({
-//       Families: result.rows,
-//     });
-//   } catch (error) {
-//     res.status(500).json({ error: error.message });
-//   }
-// });
-
 app.get("/families/:family", async (req, res) => {
   const familyName = req.params.family;
 
