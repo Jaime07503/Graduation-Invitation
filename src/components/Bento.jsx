@@ -100,13 +100,13 @@ export const Bento = ({ id, className, FamilyInput }) => {
             `}
     >
       <BentoItem
-        className="col-span-10 sm:col-span-5 md:col-span-4"
+        className="col-span-9 sm:col-span-5 md:col-span-4"
         title="Fecha y Hora"
       >
         <Calendar />
       </BentoItem>
       <BentoItem
-        className="col-span-10 sm:col-span-5 md:col-span-6"
+        className="col-span-9 sm:col-span-5 md:col-span-6"
         title="Lugar"
         subtitle="Restaurante Montaña Kfe - Los Naranjos"
       >
