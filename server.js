@@ -5,15 +5,10 @@ import cors from "cors";
 const app = express();
 const port = process.env.port || 3001;
 
-const corsOptions = {
-  origin: [
-    "https://graduation-invitation-mario.vercel.app",
-    "http://localhost:5173",
-  ],
+var corsOptions = {
+  origin: "*",
 };
-
 app.use(cors(corsOptions));
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
