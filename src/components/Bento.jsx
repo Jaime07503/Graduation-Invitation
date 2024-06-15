@@ -95,7 +95,7 @@ export const Bento = ({ id, className, FamilyInput }) => {
       className={`
                 ${className} 
                 w-full mx-auto 
-                grid grid-cols-10 auto-rows-[31rem] gap-4 
+                grid sm:grid-cols-10 md:grid-cols-10 auto-rows-[31rem] gap-4 
                 px-4 py-8
             `}
     >
@@ -122,12 +122,12 @@ export const Bento = ({ id, className, FamilyInput }) => {
         ></iframe>
       </BentoItem>
       <BentoItem
-        className="col-span-10 sm:col-span-5 md:col-span-6"
+        className="col-span-9 sm:col-span-5 md:col-span-6"
         title="Agradecimientos"
         content="En primer lugar, quisiera expresar mi más profundo agradecimiento a Dios, quien me ha ayudado en las circunstancias difíciles a lo largo de mi carrera. Aunque el camino no fue fácil, con su ayuda pude superar cada obstáculo que se presentó.Deseo extender mi más sincero agradecimiento a mi tía Tata, quien ha sido un apoyo incondicional a lo largo de mi trayectoria. Sin su respaldo, este logro no habría sido posible."
       />
       <BentoItem
-        className="col-span-10 sm:col-span-5 md:col-span-4"
+        className="col-span-9 sm:col-span-5 md:col-span-4"
         title="Confirmar Asistencia"
       >
         {family ? (
