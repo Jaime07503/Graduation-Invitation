@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/changa-one": "^5.0.19",
     "@libsql/client": "^0.6.2",
+    "canvas-confetti": "^1.9.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",

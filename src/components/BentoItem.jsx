@@ -25,7 +25,7 @@ export const BentoItem = ({
           </h3>
         )}
         {content && (
-          <p className="text-lg md:text-2xl text-pretty text-black">
+          <p className="text-xl md:text-2xl text-pretty text-black">
             {content}
           </p>
         )}
