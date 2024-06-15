@@ -89,20 +89,6 @@ export const Bento = ({ id, className, FamilyInput }) => {
   const allConfirmed =
     family && family.Members.every((member) => member.guest_confirmed === 1);
 
-  const [content, setContent] = useState("");
-
-  useEffect(() => {
-    if (FamilyInput === "Beltran Valenzuela") {
-      setContent(
-        "En primer lugar, expreso mi más profundo agradecimiento a Dios, cuya guía me ha fortalecido en los momentos difíciles a lo largo de mi carrera. Su apoyo me ha permitido superar cada obstáculo. Agradezco sinceramente a mi tía Tata y tío Felipe, cuyo respaldo incondicional ha sido fundamental en mi trayectoria. Sin su ayuda, este logro no habría sido posible. Finalmente, extiendo mi gratitud a mis padres por su constante apoyo y motivación."
-      );
-    } else {
-      setContent(
-        "En primer lugar, expreso mi más profundo agradecimiento a Dios, cuya guía me ha fortalecido en los momentos difíciles a lo largo de mi carrera. Su apoyo me ha permitido superar cada obstáculo. Agradezco sinceramente a mi tía Tata, cuyo respaldo incondicional ha sido fundamental en mi trayectoria. Sin su ayuda, este logro no habría sido posible. Finalmente, extiendo mi gratitud a mis padres por su constante apoyo y motivación."
-      );
-    }
-  }, [FamilyInput]);
-
   return (
     <section
       id={id}
@@ -138,7 +124,7 @@ export const Bento = ({ id, className, FamilyInput }) => {
       <BentoItem
         className="col-span-9 sm:col-span-5 md:col-span-6"
         title="Agradecimientos"
-        content={content}
+        content="En primer lugar, expreso mi más profundo agradecimiento a Dios, cuya guía me ha fortalecido en los momentos difíciles a lo largo de mi carrera. Su apoyo me ha permitido superar cada obstáculo. Agradezco sinceramente a mi tía Tata y tío Felipe, cuyo respaldo incondicional ha sido fundamental en mi trayectoria. Sin su ayuda, este logro no habría sido posible. Finalmente, extiendo mi gratitud a mis padres por su constante apoyo y motivación."
       />
       <BentoItem
         className="col-span-9 sm:col-span-5 md:col-span-4"
