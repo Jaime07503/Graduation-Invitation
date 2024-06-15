@@ -11,7 +11,7 @@ export const Bento = ({ id, className, FamilyInput }) => {
       if (!FamilyInput) return;
       try {
         const response = await fetch(
-          `http://localhost:3001/families/${FamilyInput}`
+          `https://back-end-node-three.vercel.app/families/${FamilyInput}`
         );
 
         if (!response.ok) {
@@ -65,7 +65,7 @@ export const Bento = ({ id, className, FamilyInput }) => {
 
     try {
       const response = await fetch(
-        `http://localhost:3001/families/updatedMembers`,
+        `https://back-end-node-three.vercel.app/families/updatedMembers`,
         {
           method: "PUT",
           headers: {
