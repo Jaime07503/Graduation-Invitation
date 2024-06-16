@@ -11,13 +11,14 @@ function Login() {
 
   const validFamilies = [
     "Agreda Herrera",
+    "Beltran Valenzuela",
     "Agreda Lucha",
     "Figueroa Valenzuela",
     "Rodríguez Valenzuela",
-    "Valenzuela Herrera",
     "Contreras Cabezas",
-    "Beltran Valenzuela",
     "Martínez Herrera",
+    "Valenzuela Herrera",
+    "Uribe",
   ];
 
   useEffect(() => {
@@ -28,8 +29,8 @@ function Login() {
 
     if (input === "") {
       setError("No se ha ingresado una Familia");
-    } else if (input.length < 8) {
-      setError("La Familia debe tener al menos 8 caracteres");
+    } else if (input.length < 4) {
+      setError("La Familia debe tener al menos 4 caracteres");
     } else if (!validFamilies.includes(input)) {
       setError("Familia incorrecta");
     } else {
@@ -42,8 +43,8 @@ function Login() {
 
     if (input === "") {
       setError("No se ha ingresado una Familia");
-    } else if (input.length < 8) {
-      setError("La Familia debe tener al menos 8 caracteres");
+    } else if (input.length < 4) {
+      setError("La Familia debe tener al menos 4 caracteres");
     } else if (!validFamilies.includes(input)) {
       setError("Familia incorrecta");
     } else {
