@@ -9,20 +9,23 @@ function Login() {
   const isFirstInput = useRef(true);
   const navigate = useNavigate();
 
-  // const compareFamily = async () => {
-  //   const response = await fetch(`http://localhost:3001/families`);
-
-  //   const data = await response.json();
-  //   console.log(data);
-  // };
-
   useEffect(() => {
     if (isFirstInput.current) {
       isFirstInput.current = input === "";
       return;
-    }
-    if (input === "") {
+    } else if (input === "") {
       setError("No se ha ingresado una Familia");
+    } else if (
+      input !== "Agreda Herrera" ||
+      input !== "Agreda Lucha" ||
+      input !== "Figueroa Valenzuela" ||
+      input !== "Rodríguez Valenzuela" ||
+      input !== "Valenzuela Herrera" ||
+      input !== "Contreras Cabezas" ||
+      input !== "Beltran Valenzuela" ||
+      input !== "Martínez Herrera"
+    ) {
+      setError("Familia incorrecta");
     } else if (input.length < 8) {
       setError("La Familia debe tener al menos 8 caracteres");
     } else {
@@ -32,9 +35,19 @@ function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // const exitsFamily = compareFamily();
     if (input.length < 8) {
       setError("La Familia debe tener al menos 8 caracteres");
+    } else if (
+      input !== "Agreda Herrera" ||
+      input !== "Agreda Lucha" ||
+      input !== "Figueroa Valenzuela" ||
+      input !== "Rodríguez Valenzuela" ||
+      input !== "Valenzuela Herrera" ||
+      input !== "Contreras Cabezas" ||
+      input !== "Beltran Valenzuela" ||
+      input !== "Martínez Herrera"
+    ) {
+      setError("Familia incorrecta");
     } else {
       localStorage.setItem("family", input);
       navigate("/invitation");
