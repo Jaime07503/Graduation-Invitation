@@ -9,25 +9,29 @@ function Login() {
   const isFirstInput = useRef(true);
   const navigate = useNavigate();
 
+  const validFamilies = [
+    "Agreda Herrera",
+    "Agreda Lucha",
+    "Figueroa Valenzuela",
+    "Rodríguez Valenzuela",
+    "Valenzuela Herrera",
+    "Contreras Cabezas",
+    "Beltran Valenzuela",
+    "Martínez Herrera",
+  ];
+
   useEffect(() => {
     if (isFirstInput.current) {
       isFirstInput.current = input === "";
       return;
-    } else if (input === "") {
+    }
+
+    if (input === "") {
       setError("No se ha ingresado una Familia");
-    } else if (
-      input !== "Agreda Herrera" ||
-      input !== "Agreda Lucha" ||
-      input !== "Figueroa Valenzuela" ||
-      input !== "Rodríguez Valenzuela" ||
-      input !== "Valenzuela Herrera" ||
-      input !== "Contreras Cabezas" ||
-      input !== "Beltran Valenzuela" ||
-      input !== "Martínez Herrera"
-    ) {
-      setError("Familia incorrecta");
     } else if (input.length < 8) {
       setError("La Familia debe tener al menos 8 caracteres");
+    } else if (!validFamilies.includes(input)) {
+      setError("Familia incorrecta");
     } else {
       setError("");
     }
@@ -35,20 +39,15 @@ function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (input.length < 8) {
+
+    if (input === "") {
+      setError("No se ha ingresado una Familia");
+    } else if (input.length < 8) {
       setError("La Familia debe tener al menos 8 caracteres");
-    } else if (
-      input !== "Agreda Herrera" ||
-      input !== "Agreda Lucha" ||
-      input !== "Figueroa Valenzuela" ||
-      input !== "Rodríguez Valenzuela" ||
-      input !== "Valenzuela Herrera" ||
-      input !== "Contreras Cabezas" ||
-      input !== "Beltran Valenzuela" ||
-      input !== "Martínez Herrera"
-    ) {
+    } else if (!validFamilies.includes(input)) {
       setError("Familia incorrecta");
     } else {
+      setError("");
       localStorage.setItem("family", input);
       navigate("/invitation");
     }
