@@ -3,7 +3,6 @@
     {
       "Id": 1,
       "Family": "Agreda Herrera",
-      "Confirmed": false,
       "Members": [
         {
           "Name": "Reina Valenzuela",
@@ -30,7 +29,6 @@
     {
       "Id": 2,
       "Family": "Agreda Lucha",
-      "Confirmed": false,
       "Members": [
         {
           "Name": "Beatriz Agreda",
@@ -45,7 +43,6 @@
     {
       "Id": 3,
       "Family": "Figueroa Valenzuela",
-      "Confirmed": false,
       "Members": [
         {
           "Name": "Oscar Figueroa",
@@ -64,7 +61,6 @@
     {
       "Id": 4,
       "Family": "Rodríguez Valenzuela",
-      "Confirmed": false,
       "Members": [
         {
           "Name": "Nelson Rodríguez",
@@ -91,7 +87,6 @@
     {
       "Id": 5,
       "Family": "Contreras Cabezas",
-      "Confirmed": false,
       "Members": [
         {
           "Name": "Pedro Valenzuela",
@@ -118,7 +113,6 @@
     {
       "Id": 6,
       "Family": "",
-      "Confirmed": false,
       "Members": [
         {
           "Name": "Nelson ",
@@ -137,7 +131,6 @@
     {
       "Id": 7,
       "Family": "Martínez Herrera",
-      "Confirmed": false,
       "Members": [
         {
           "Name": "Doris Martínez",
@@ -172,7 +165,6 @@
     {
       "Id": 8,
       "Family": "Valenzuela Herrera",
-      "Confirmed": false,
       "Members": [
         {
           "Name": "Rocio Valenzuela",

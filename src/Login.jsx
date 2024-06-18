@@ -17,7 +17,9 @@ function Login() {
     "Rodríguez Valenzuela",
     "Contreras Cabezas",
     "Martínez Herrera",
-    "Valenzuela Herrera",
+    "Valenzuela Herrera CH",
+    "Valenzuela Herrera SL",
+    "Valenzuela Herrera SS",
     "Uribe",
   ];
 
