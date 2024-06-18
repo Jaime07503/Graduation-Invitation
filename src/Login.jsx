@@ -16,10 +16,10 @@ function Login() {
     "Figueroa Valenzuela",
     "Rodríguez Valenzuela",
     "Contreras Cabezas",
-    "Martínez Herrera",
-    "Valenzuela Herrera CH",
-    "Valenzuela Herrera SL",
-    "Valenzuela Herrera SS",
+    "Martínez Herrera CH",
+    "Martínez Herrera SL",
+    "Martínez Herrera SS",
+    "Valenzuela Herrera",
     "Uribe",
   ];
 
@@ -69,7 +69,7 @@ function Login() {
               name="family"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Martínez Herrera"
+              placeholder="Martínez Herrera CH"
               className="text-black text-2xl rounded-lg w-full text-center p-2 border-2 border-gold mb-2"
               autoComplete="off"
             />
