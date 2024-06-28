@@ -22,6 +22,7 @@ function Login() {
     "Valenzuela Herrera",
     "Uribe",
     "Contreras Castaneda",
+    "Escalante Perez",
   ];
 
   useEffect(() => {
